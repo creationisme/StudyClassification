@@ -9,7 +9,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 import warnings
 
-warnings.filterwarnings('ignore', category=Con)
+warnings.filterwarnings('ignore')
 
 def load_data(filepath):
     print(f"Loading data from {filepath}...")
